@@ -21,3 +21,4 @@ sudo usermod -aG docker $(whoami)
 
 # Enable Docker to start at boot time
 sudo systemctl enable docker
+sudo systemctl restart docker
